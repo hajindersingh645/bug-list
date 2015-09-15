@@ -1,0 +1,2 @@
+When entering text (keypress) inside a textbox the page automatically scrolls to the top. So the focus no really stays on textbox/ page focus should stay where it is.
+Reference website : beautyaddicttherapy.com
