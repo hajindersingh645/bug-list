@@ -1,2 +1,14 @@
 When entering text (keypress) inside a textbox the page automatically scrolls to the top. So the focus no really stays on textbox/ page focus should stay where it is.
 Reference website : beautyaddicttherapy.com
+
+
+#Bug : [ Magento ] 403 Permission denied error on media/catalog/products
+##Reference Website : lovestyle.com.br
+*Solution : adding .htaccess file with following content and uploading it to the folder which has the problem*
+
+```
+Options All +Indexes
+DirectoryIndex index.html
+```
+
+
