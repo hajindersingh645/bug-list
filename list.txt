@@ -12,3 +12,10 @@ DirectoryIndex index.html
 ```
 
 
+#Bug : [ WordPress ] Contact Form 7 - *Unexpected token <*
+Reference URL : hormozi.co.uk
+
+Cause : Conflicts with other js library
+
+Solution : Remove contact form js by defining variable in wp-config 
+Solution URI : http://contactform7.com/loading-javascript-and-stylesheet-only-when-it-is-necessary/
